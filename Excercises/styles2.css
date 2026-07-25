@@ -1,0 +1,74 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: purple;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+}
+
+.arrangement{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.margin{
+    padding: 15px 0px;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.outer-container{
+    margin: 50px auto;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.inner-container{
+    margin: 20px;
+}
+
+input{
+    border-color: 1px solid lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid purple;
+}
+
+button{
+    background-color: purple;
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid purple;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.DoB,.Gender{
+    width: 100%;
+}

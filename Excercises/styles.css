@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: purple;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    height: 100vh;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.outer-container{
+    width: 30%;
+    margin: 150px auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.inner-container{
+    margin: 20px;
+}
+
+.arrangement{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.margin{
+    padding: 15px 0px;
+}
+
+input{
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button{
+    background-color: purple;
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+label{
+    margin-bottom: 10px;
+}
